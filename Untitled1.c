@@ -2,11 +2,11 @@
 main()
  {
  float velocity,acceleration,deceleration,time;
- printf("Enter velocity:\n");
+ printf("Enter the velocity:\n");
  scanf("%f",&velocity);
  printf("Enter the time:\n");
  scanf("%f",&time);
- acceleration = velocity / time;
+ acceleration = velocity/time;
  deceleration = -(velocity/time);
  if (acceleration>0) {
  printf("The acceleration is %f", acceleration);
